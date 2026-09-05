@@ -3,6 +3,7 @@ body {
   margin: 0;
   padding: 0;
   padding-left: 50px;
+  padding-top: 30px;
 }
 
 .titleOfList {
@@ -61,16 +62,27 @@ body {
   border-radius: 30px;
 }
 
-nav {
+header {
+  background-color: black;
+  position: fixed;
   display: flex;
   align-items: center;
+  z-index: 9999;
+  top: 0;
+  left: 0px;
+  width: 100%;
+  padding: 0 100px;
+}
+
+.searchBar {
+  position: relative;
+  margin-top: 20px;
+  margin-bottom: 20px;
   padding-left: 300px;
 }
 .search {
-  position: relative;
   width: 400px;
   height: 40px;
-  margin-top: 20px;
   padding-left: 40px;
   font-size: 1.2em;
 
@@ -91,12 +103,12 @@ nav {
 }
 .searchBtn {
   position: absolute;
-
-  top: 30px;
+  top: 10px;
   padding-left: 10px;
   z-index: 2;
   background-color: transparent;
   border: none;
+  cursor: pointer;
 }
 .searchBtn svg {
   stroke: rgba(190, 190, 190, 0.5);
