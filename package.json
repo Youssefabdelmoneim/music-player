@@ -1,0 +1,21 @@
+{
+  "name": "music-player",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/Youssefabdelmoneim/music-player#readme",
+  "bugs": {
+    "url": "https://github.com/Youssefabdelmoneim/music-player/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Youssefabdelmoneim/music-player.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
