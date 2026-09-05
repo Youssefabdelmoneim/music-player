@@ -23,7 +23,7 @@ async function searchFunc(home, search, searchList, e) {
   e.preventDefault();
   const query = search.value;
   await model.musicData(query, songsSearchList, `searchList`);
-  view.createListOfSongs(`search`, home, songsSearchList, searchList);
+  view.createListOfSongs(`search`, home, songsSearchList, searchList, player);
 }
 homePage(`song`, `Hip Hop`, `Pop`);
 view.activateAudioPage(home, searchList, player, songs, songsSearchList);
