@@ -51,17 +51,6 @@ flowchart TD
     └── logic.js
 ```
 
-## Getting Started
-
-This project uses ES Modules, so it must be run through a local server (opening `index.html` directly via `file://` will not work).
-
-```bash
-# using VSCode Live Server, or:
-npx serve .
-```
-
-Then open the printed local URL in your browser.
-
 
 
 ## Author
